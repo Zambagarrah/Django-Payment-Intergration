@@ -4,3 +4,4 @@ Step 2: Project-Level URLs.
 Step 3: Payments App URLs and Views.
 Step 4: Modular Gateway Structure.
 Step 5: Checkout Template with PayPal Button.
+Step 6: Success Page.
