@@ -1,3 +1,4 @@
 Step 0: Project Initialization.
 Step 1: Configure settings.py.
-Step 2: Project-Level URLs
+Step 2: Project-Level URLs.
+Step 3: Payments App URLs and Views.
