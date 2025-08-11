@@ -1,0 +1,14 @@
+<!-- payments/templates/mpesa_button.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>M-Pesa Checkout</title>
+</head>
+<body>
+  <h1>Initiate M-Pesa STK Push</h1>
+  <form method="post">
+    {% csrf_token %}
+    <button type="submit">Pay with M-Pesa</button>
+  </form>
+</body>
+</html>

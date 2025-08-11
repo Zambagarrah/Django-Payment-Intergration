@@ -62,7 +62,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'payment_hub.urls'
+ROOT_URLCONF = 'payment_hub.urls' 
 
 TEMPLATES = [
     {
