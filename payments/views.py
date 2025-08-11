@@ -33,6 +33,9 @@ def mpesa_checkout(request):
         phone = request.POST.get("phone")
         amount = request.POST.get("amount")
 
+        if not phone or not amount:
+            return JsonResponse({"error": "Missing phone or amount"}, status=400)
+
         try:
             normalized_phone = normalize_phone(phone)
         except ValueError:
