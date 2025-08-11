@@ -1,7 +1,14 @@
 Step 0: Project Initialization.
 Step 1: Configure settings.py.
 Step 2: Project-Level URLs.
+
+PayPal
+
 Step 3: Payments App URLs and Views.
 Step 4: Modular Gateway Structure.
 Step 5: Checkout Template with PayPal Button.
 Step 6: Success Page.
+
+M-PESA
+
+St
